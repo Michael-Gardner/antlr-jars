@@ -15,10 +15,10 @@
 ################################################################################
 
 set(ANTLR_BUILDTIME_JAR
-    ${CMAKE_CURRENT_SOURCE_DIRECTORY}/antlr-3.4-complete.jar
+    ${CMAKE_CURRENT_LIST_DIR}/antlr-3.4-complete.jar
     CACHE FILEPATH "location of Antlr complete jar for builds")
 set(ANTLR_RUNTIME_JAR
-    ${CMAKE_CURRENT_SOURCE_DIRECTORY}/antlr-runtime-3.4.jar
+    ${CMAKE_CURRENT_LIST_DIR}/antlr-runtime-3.4.jar
     CACHE FILEPATH "location of Antlr runtime jar")
 
 function(ANTLR_TARGET)
